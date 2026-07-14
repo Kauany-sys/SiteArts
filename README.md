@@ -24,10 +24,6 @@ Ou acesse a versão online: **[https://kauany-sys.github.io/SiteArts/Site/]**
 - Os botões "encomendar" direcionam diretamente para o WhatsApp do Artista.
 - As negociações de preço, prazo e detalhes da encomenda são feitas diretamente pelo WhatsApp
 
-## Contato
-
-Para encomendas, entre em contato pelo WhatsApp: **[]**
-
-## Autora
+## Autor
 
 Em desenvolvimento por **[Kauany Oliveira Lima]**
