@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #f2ead9;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding:  30px;
+}
+
+.logo h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: #141414;
+}
+
+.logo h2 {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #a08a5b;
+    margin-top: 4px;
+}
+
+.banner-inicial{
+   position: relative;
+   min-height: 80vh;
+   justify-content: flex-start;
+   background-image: url(multimidia/banner-P.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+
+}
+
+.conteudo-banner{
+    padding-top: 50vh;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.conteudo-banner p{
+    font-size: 14px;
+    color:#ffde96;
+    letter-spacing: 2px;
+    padding: 2px 0px ;
+    margin-bottom: 10px ;
+    font-weight: 600;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.544);
+}
+.conteudo-banner h1{
+    font-size: 28px;
+    color: #f3f2ed;
+    margin-bottom: 3px;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.conteudo-banner h2{
+    font-size: 18px;
+    color: #f3f2ed;
+    margin-bottom: 40px;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.btn-encomendar{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #a08a5b;
+    text-decoration: none;
+    padding: 10px 20px ;
+    background-color: #ffffffe2;
+    border: 2px solid#a08a5b;
+
+}
+
+
+
+@media(min-width: 480px){ /* tablets e notebooks*/
+.banner-inicial{
+    background-image: url(multimidia/banner-M.jpg);
+}
+
+.conteudo-banner{
+    padding-top: 60vh;
+}
+
+}
+
+@media(min-width:1050px ){  /* monitores maiores */
+
+
+}
