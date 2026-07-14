@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'allrounder monument' ;
+    src: url(fonts/AllrounderMonumentTest-Book.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,26 +14,28 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
-    padding:  30px;
+    justify-content: flex-start;
+    padding: 30px;
 }
 
 .logo h1 {
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #141414;
 }
 
 .logo h2 {
     font-family: "Playfair Display", serif;
     font-style: italic;
-    font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
     color: #a08a5b;
     margin-top: 4px;
 }
+
 
 .banner-inicial{
    position: relative;
@@ -39,46 +46,48 @@ header {
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: scroll;
-
 }
 
 .conteudo-banner{
     padding-top: 50vh;
     padding-left: 5%;
     padding-bottom: 5%;
+    margin-bottom: 5%;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 
 }
 
 .conteudo-banner p{
-    font-size: 14px;
-    color:#ffde96;
-    letter-spacing: 2px;
+     font-family: 'allrounder monument', serif;
+    font-size: 10px;
+    color:#bf8c1e;
+    letter-spacing: 3px;
     padding: 2px 0px ;
     margin-bottom: 10px ;
-    font-weight: 600;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.544);
+    font-weight: 100;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.451);
 }
 .conteudo-banner h1{
-    font-size: 28px;
+    font-size: 25px;
     color: #f3f2ed;
-    margin-bottom: 3px;
-    font-family: Georgia, serif;
+    margin-bottom: 10px;
+    font-family: allrounder monument;
     letter-spacing: 2px;
     font-weight: 400;
+     width: 90%;
 }
 .conteudo-banner h2{
-    font-size: 18px;
+    font-size: 14px;
     color: #f3f2ed;
-    margin-bottom: 40px;
-    font-family: Georgia, serif;
-    letter-spacing: 2px;
-    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: allrounder monument, serif;
+    font-weight: 500;
     font-style: italic;
+     width: 90%;
 }
 
 .btn-encomendar{
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-weight: 600;
     color: #a08a5b;
@@ -87,6 +96,17 @@ header {
     background-color: #ffffffe2;
     border: 2px solid#a08a5b;
 
+}
+
+.autenticidade{
+    font-size: 14px;
+    font-weight: 500;
+    color: #f3f2ed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #a08a5b;
+    
 }
 
 
