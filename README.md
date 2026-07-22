@@ -16,7 +16,7 @@ As encomendas são feitas via wattsapp
 1. Baixe ou clone este repositório
 2. Abra o arquivo `index.html` no navegador
 
-Ou acesse a versão online: **[https://kauany-sys.github.io/SiteArts/Site/]**
+Ou acesse a versão online: **[https://kauany-sys.github.io/SiteArts]**
 
 ## Como funciona
 
