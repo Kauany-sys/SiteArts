@@ -167,7 +167,6 @@ header {
 .galeria-pinturas{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
@@ -176,7 +175,7 @@ header {
 }
 
 .layout-pintura{
-    max-width: 300px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -186,12 +185,12 @@ header {
     border: 1px solid #a08a5b;
 }
 .pintura{
-    width: 280px;
+    width: 300px;
     align-items: center;
     justify-content: center;
 }
 .titulo-pintura{
-    max-width: 280px;
+    max-width: 290px;
     font-size: 22px;
     color: #2B2923;
     font-weight: 100;
@@ -199,7 +198,7 @@ header {
     padding-top: 10px;
 }
 .descricao-pintura{
-    max-width: 280px;
+    max-width: 290px;
     font-size: 16px;
     color: #5a5747;
     font-weight: 100;
