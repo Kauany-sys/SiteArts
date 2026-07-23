@@ -4,6 +4,7 @@
 
 Este site *em desenvolvimento* apresenta o portfólio de obras do artista, permitindo que clientes visualizem as pinturas disponíveis e entrem em contato para encomendar uma peça personalizada.
 As encomendas são feitas via wattsapp 
+*obs: o site está incompleto, por esse motivo recomendo que o acesse pelo seu celular para melhor experiência, em breve ele será adaptado a desktops.*
 
 ## Tecnologias utilizadas
 
