@@ -185,10 +185,13 @@ header {
     border: 1px solid #a08a5b;
 }
 .pintura{
-  
+
     width: 280px;
+    align-items: center;
+    justify-content: center;
 }
 .titulo-pintura{
+    max-width: 280px;
     font-size: 22px;
     color: #2B2923;
     font-weight: 100;
@@ -196,6 +199,7 @@ header {
     padding-top: 10px;
 }
 .descricao-pintura{
+    max-width: 280px;
     font-size: 16px;
     color: #5a5747;
     font-weight: 100;
