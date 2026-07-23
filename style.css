@@ -176,6 +176,7 @@ header {
 }
 
 .layout-pintura{
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -185,7 +186,6 @@ header {
     border: 1px solid #a08a5b;
 }
 .pintura{
-
     width: 280px;
     align-items: center;
     justify-content: center;
