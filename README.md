@@ -1,9 +1,9 @@
-# 🎨 Galeria para exposição de pinturas em tela.
+# 🧶 Galeria para exposição de amigurumis.
 
 ## Sobre o projeto
 
-Este site *em desenvolvimento* apresenta o portfólio de obras do artista, permitindo que clientes visualizem as pinturas disponíveis e entrem em contato para encomendar uma peça personalizada.
-As encomendas são feitas via wattsapp 
+Este site *em desenvolvimento* apresenta um portiólio de peças, permitindo que clientes visualizem os amigurumis disponíveis e entrem em contato para encomendar uma peça personalizada.
+As encomendas são feitas via WhatsApp.
 
 ## Tecnologias utilizadas
 
@@ -20,10 +20,6 @@ Ou acesse a versão online: **[https://kauany-sys.github.io/SiteArts]**
 
 ## Como funciona
 
-- O site exibe os modelos de pinturas disponíveis para encomenda.
-- Os botões "encomendar" direcionam diretamente para o WhatsApp do Artista.
-- As negociações de preço, prazo e detalhes da encomenda são feitas diretamente pelo WhatsApp
-
-## Autor
-
-Em desenvolvimento por **[Kauany Oliveira Lima]**
+- O site exibe os modelos de amigurumis disponíveis para encomenda.
+- Os botões "encomendar" direcionam diretamente para o WhatsApp da Artesã.
+- As negociações de preço, prazo e detalhes da encomenda são feitas diretamente

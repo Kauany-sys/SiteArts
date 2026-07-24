@@ -1,12 +1,43 @@
-/* !!!Editar as fontes do documento!!!*/
+@font-face{
+    font-family:  'Allrounder';  
+    src: url('fontes/Allrounder Monument Test/AllrounderMonumentTest-Book.otf') format(OpenType);
+    src: url('fontes/Allrounder Monument Test/AllrounderMonumentTest-Regular.otf') format(OpenType);
+    src: url('fontes/Allrounder Monument Test/AllrounderMonumentTest-Medium.otf') format(OpenType);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
     background-color: #f2ead9;
+}
+
+h1{
+    font-family: 'Allrounder',serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+h2{
+   font-size: 1.2em;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    color: #f3f2ed;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 header {
@@ -22,65 +53,61 @@ header {
 
 .logo h1 {
     font-size: 22px;
-    color: #2B2923;
+    font-family: 'Allrounder',serif;
+    font-weight: 100;
+    color: #2b232a;
 }
 
 .logo h2 {
+    font-family: 'Allrounder',serif;
+    font-weight: 100;
     font-style: italic;
     font-size: 14px;
     color: #a08a5b;
-    margin-top: 4px;
 }
 
 
 .banner-inicial{
    position: relative;
-   min-height: 80vh;
+   min-height: 70vh;
    justify-content: flex-start;
-   background-image: url(multimidia/banner-P.jpg);
+   background-image: url(multimidia/banner-p.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: scroll;
 }
-
 .conteudo-banner{
     padding-top: 50vh;
     padding-left: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    
 
 }
-
-.conteudo-banner p{
-    font-size: 10px;
+.tag-banner{
+    font-size: 0.8em;
     color:#bf8c1e;
     letter-spacing: 3px;
     padding: 2px 0px ;
     margin-bottom: 10px ;
     font-weight: 100;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.451);
 }
 .conteudo-banner h1{
-    font-size: 25px;
-    color: #f3f2ed;
+    font-size: 1.5em;
+    color: #f3eded;
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 10px;
     width: 90%;
+    
 }
-.conteudo-banner h2{
-    font-size: 16px;
-    color: #f3f2ed;
-    font-weight: 500;
-    font-style: italic;
-    margin-bottom: 20px;
-    width: 90%;
+.subtitulo-banner{
+    color: #ffffff;
 }
 
 .btn-encomendar{
-    font-size: 12px;
+    font-size: 0.8em;
     color: #a08a5b;
     font-weight: 600;
     letter-spacing: 2px;
@@ -92,18 +119,20 @@ header {
 }
 
 .autenticidade{
+    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #a08a5b;
-    padding: 10px 5px;
+    padding-top: 2px;
     flex-wrap: wrap;
+    max-height: 55px;
 }
 .autenticidade p {
-    font-size: 12px;
+    font-family: 'Allrounder',serif;
+    font-size: 0.8em;
     color: #f2ead9;
-    letter-spacing: 1px;
+    letter-spacing: px;
     font-weight: 100;
 }
 .introducao{
@@ -218,16 +247,12 @@ header {
 
 @media(min-width: 480px){ /* tablets e notebooks*/
 .banner-inicial{
-    background-image: url(multimidia/banner-M.jpg);
+    background-image: url(multimidia/banner-p.jpg);
 }
 
-.conteudo-banner {
-    padding-top: 50vh;
-}
-
-}
 
 @media(min-width:1050px ){  /* monitores maiores */
-
+.banner-inicial{
+    background-image: url(multimidia/banner-p.jpg);
 
 }
