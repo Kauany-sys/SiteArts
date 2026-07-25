@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Este site *em desenvolvimento* apresenta um portiólio de peças, permitindo que clientes visualizem os amigurumis disponíveis e entrem em contato para encomendar uma peça personalizada.
+Este site Fictício *em desenvolvimento* apresenta um portiólio de peças, permitindo que clientes visualizem os amigurumis disponíveis e entrem em contato para encomendar uma peça personalizada.
 As encomendas são feitas via WhatsApp.
 
 ## Tecnologias utilizadas
@@ -16,7 +16,7 @@ As encomendas são feitas via WhatsApp.
 1. Baixe ou clone este repositório
 2. Abra o arquivo `index.html` no navegador
 
-Ou acesse a versão online: **[https://kauany-sys.github.io/SiteArts]**
+Ou acesse a versão online: **[https://kauany-sys.github.io/SiteAmigurumi/]**
 
 ## Como funciona
 

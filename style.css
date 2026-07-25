@@ -190,30 +190,31 @@ header {
     color: #2B2923;
     font-weight: 100;
     letter-spacing: 1px;
-    padding-top: 40px;
+    padding: 40px 0px 80px 0px;
     text-align: center;
 }
-.galeria-pinturas{
+.galeria-amigurumis{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
-    gap:20px ;
-   
+    gap: 30px ;
+    padding: 0px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
-.layout-pintura{
+.layout-produto{
     max-width: 350px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 20px 8px;
     border: 1px solid #a08a5b;
 }
-.pintura{
+.amigurumi{
     width: 300px;
     align-items: center;
     justify-content: center;
