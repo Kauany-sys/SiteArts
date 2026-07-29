@@ -192,6 +192,7 @@ header {
     letter-spacing: 1px;
     padding: 40px 0px 80px 0px;
     text-align: center;
+    gap: 50px;
 }
 .galeria-amigurumis{
     display: flex;
@@ -214,7 +215,7 @@ header {
     padding: 20px 8px;
     border: 1px solid #a08a5b;
 }
-.amigurumi{
+.foto-amigurumi{
     width: 300px;
     align-items: center;
     justify-content: center;
@@ -250,10 +251,11 @@ header {
 .banner-inicial{
     background-image: url(multimidia/banner-p.jpg);
 }
+}
 
 
 @media(min-width:1050px ){  /* monitores maiores */
 .banner-inicial{
     background-image: url(multimidia/banner-p.jpg);
-
+}
 }
