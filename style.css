@@ -91,7 +91,8 @@ header {
 
 }
 
-.conteudo-banner h1{
+.conteudo-banner h2{
+    font-family: 'Allrounder',serif;
     font-size: 1.5em;
     color: #f3eded;
     font-weight: 400;
@@ -148,14 +149,18 @@ header {
     gap: 40px;
 }
 
-.introducao h2{
+.overline-introducao{
     font-size: 12px;
     color: #a08a5b;
     font-weight: 100;
     letter-spacing: 3px;
+    font-style: normal;
+    width: auto;
+    margin-bottom: 0;
 }
 
-.introducao h1{
+.introducao h2{
+    font-family: 'Allrounder',serif;
     font-size: 22px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -191,11 +196,13 @@ header {
     align-items: center;
     justify-content: center;
     gap: 100px ;
-    padding: 0px 40px;
+    padding: 40px 40px;
     max-width: 1600px;
     margin: 0 auto;
+    list-style: none;
 }
 .titulo-galeria{
+    font-family: 'Allrounder',serif;
     font-size: 22px;
     color: #1d1c1a;
     font-weight: 100;
@@ -222,12 +229,198 @@ header {
     justify-content: center;
 }
 .titulo-pintura{
+    font-family: 'Allrounder',serif;
     max-width: 290px;
     font-size: 22px;
     color: #2B2923;
     font-weight: 100;
     letter-spacing: 1px;
     padding-top: 10px;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #f2ead9;
+    padding: 80px 20px;
+}
+.sobre-mim-conteudo{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.foto-artesa{
+    flex-shrink: 0;
+}
+.foto-artesa img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #a08a5b;
+}
+.texto-sobre-mim{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.overline-sobre{
+    font-size: 12px;
+    color: #a08a5b;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-style: normal;
+    width: auto;
+    margin-bottom: 0;
+}
+.sobre-mim h2{
+    font-family: 'Allrounder',serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #2B2923;
+}
+.sobre-mim p{
+    color: #5a5747;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #f2ead9;
+    padding: 80px 20px;
+}
+.contato-conteudo{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.overline-contato{
+    font-size: 12px;
+    color: #a08a5b;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-style: normal;
+    width: auto;
+    margin-bottom: 0;
+}
+.contato h2{
+    font-family: 'Allrounder',serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #2B2923;
+}
+.contato p{
+    color: #5a5747;
+    width: auto;
+    margin-bottom: 0;
+}
+.contato-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.link-instagram{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: #a08a5b;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.link-instagram:hover{
+    text-decoration: underline;
+}
+
+.passos-encomenda{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+.passos-encomenda li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #5a5747;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.passo-numero{
+    font-family: 'Allrounder',serif;
+    font-size: 14px;
+    color: #a08a5b;
+    font-weight: 500;
+}
+
+.rodape{
+    background-color: #2b232a;
+    padding: 30px 20px;
+    text-align: center;
+}
+.rodape-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.rodape-marca{
+    font-family: 'Allrounder',serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #f2ead9;
+    font-weight: 100;
+    font-style: normal;
+    width: auto;
+    margin-bottom: 0;
+}
+.rodape-links{
+    display: flex;
+    gap: 20px;
+}
+.rodape-links a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8em;
+    color: #a08a5b;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.rodape-links a:hover{
+    text-decoration: underline;
+}
+.rodape-copyright{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    color: #f2ead9;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: auto;
+    margin-bottom: 0;
 }
 .descricao-pintura{
     max-width: 290px;
@@ -258,5 +451,16 @@ header {
 @media(min-width:1050px ){  /* monitores maiores */
 .banner-inicial{
     background-image: url(multimidia/banner-p.jpg);
+}
+}
+
+@media(min-width: 768px){
+.sobre-mim-conteudo{
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+}
+.texto-sobre-mim{
+    text-align: left;
 }
 }

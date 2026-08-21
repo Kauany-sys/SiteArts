@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Este site Fictício *em desenvolvimento* apresenta um portiólio de peças, permitindo que clientes visualizem os amigurumis disponíveis e entrem em contato para encomendar uma peça personalizada.
+Este site de uma *artesã fictícia* apresenta um portiólio de peças, permitindo que clientes visualizem os amigurumis disponíveis e entrem em contato para encomendar uma peça personalizada.
 As encomendas são feitas via WhatsApp.
 
 ## Tecnologias utilizadas

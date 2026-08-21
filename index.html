@@ -3,92 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Julia Amigurumi - Bonecos de crochê artesanais, feitos à mão com fio de algodão." />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="multimidia/flor.svg" type="image/x-icon">
-
-    <link
-      rel="shortcut icon"
-      href="#"
-      type="image/x-icon"/>
+    <link rel="shortcut icon" href="multimidia/flor.svg" type="image/svg+xml">
 
     <title>Julia Amigurumi</title>
   </head>
 
   <body>
-    
+
     <div class="fundo">
-      
+
       <header>
         <div class="logo">
           <h1>JULIA ALVES</h1>
           <h2>AMIGURUMI ARTESANAL</h2>
         </div>
       </header>
+
       <main class="conteúdo">
-        <section class="banner-inicial">
+
+        <section class="banner-inicial" aria-label="Apresentação">
           <div class="conteudo-banner">
-            <h1>BONECOS CRIADOS PARA ABRAÇAR</h1>
+            <h2>BONECOS CRIADOS PARA ABRAÇAR</h2>
             <p class="subtitulo-banner">Amigurumis originais e personalizados, feitos ponto a ponto à mão com fio de algodão.</p>
-            <a class="btn-encomendar" href="#" target="_blank">ENCOMENDAR AMIGURUMI</a>
+            <a class="btn-encomendar" href="#">ENCOMENDAR AMIGURUMI</a>
           </div>
           <div class="autenticidade">
-          <p>CADA PEÇA FEITA À MÃO, COM CARINHO E EXCLUSIVIDADE</p>
+            <p>CADA PEÇA FEITA À MÃO, COM CARINHO E EXCLUSIVIDADE</p>
           </div>
         </section>
-      
-      
-        <div class="introducao">
-            <h2>CRIANDO HÁ MAIS DE 8 ANOS</h2>
-            <h1>PEÇAS ÚNICAS, <br> PARA GUARDAR COM CARINHO</h1>
-            <p> Cada amigurumi nasce fio a fio, com paciência e dedicação — uma mistura de técnica artesanal, materiais escolhidos com cuidado e muito afeto em cada detalhe.</p>
-        </div>
-      
+
+        <section class="introducao" aria-label="Introdução">
+          <p class="overline-introducao">CRIANDO HÁ MAIS DE 8 ANOS</p>
+          <h2>PEÇAS ÚNICAS, <br> PARA GUARDAR COM CARINHO</h2>
+          <p>Cada amigurumi nasce fio a fio, com paciência e dedicação — uma mistura de técnica artesanal, materiais escolhidos com cuidado e muito afeto em cada detalhe.</p>
+        </section>
+
         <div class="divisor">
           <hr class="line">
           <span class="estrela">✦</span>
           <hr class="line">
         </div>
-          <h1 class="titulo-galeria"> NOSSOS AMIGURUMIS:</h1>
-        <div class="galeria-amigurumis">
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/anjinho-p.jpg" alt="retrato indivudual de rosto">
-            <h1 class="titulo-pintura">Anjinho</h1>
-            <p class="descricao-pintura">Feito em fio de algodão, aprox. 20cm</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/coelinho-p.jpg" alt="Retrato individual de corpo">
-            <h1 class="titulo-pintura">coelinho</h1>
-            <p class="descricao-pintura">Feito em fio de algodão, aprox. 25cm</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/familia-p.jpg" alt="Retrato individual de corpo">
-            <h1 class="titulo-pintura">PresÉpio</h1>
-            <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/flor-p.jpg" alt="flor">
-            <h1 class="titulo-pintura">flor</h1>
-            <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/jose-p.jpg" alt="jose e jesus">
-            <h1 class="titulo-pintura">JosÉ e Jesus</h1>
-            <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
-          <div class="layout-produto">
-            <img class="foto-amigurumi" src="multimidia/trepadeira-p.jpg" alt="Flor trepadeira">
-            <h1 class="titulo-pintura">trepadeira</h1>
-            <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
-             <a class="btn-encomendar-p" href="#" target="_blank">ENCOMENDAR</a>
-          </div>
+
+        <section class="galeria" aria-labelledby="titulo-galeria">
+          <h2 class="titulo-galeria" id="titulo-galeria">NOSSOS AMIGURUMIS:</h2>
+
+          <ul class="galeria-amigurumis">
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/anjinho-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/anjinho-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/anjinho-p.jpg" alt="Amigurumi de anjinho feito em crochê">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">Anjinho</h3>
+              <p class="descricao-pintura">Feito em fio de algodão, aprox. 20cm</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/coelinho-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/coelinho-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/coelinho-p.jpg" alt="Amigurumi de coelinho feito em crochê">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">Coelinho</h3>
+              <p class="descricao-pintura">Feito em fio de algodão, aprox. 25cm</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/familia-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/familia-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/familia-p.jpg" alt="Conjunto de presépio feito em amigurumi">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">Presépio</h3>
+              <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/flor-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/flor-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/flor-p.jpg" alt="Amigurumi em formato de flor">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">Flor</h3>
+              <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/jose-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/jose-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/jose-p.jpg" alt="Amigurumi de José e Jesus">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">José e Jesus</h3>
+              <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+            <li class="layout-produto">
+              <figure>
+                <picture>
+                  <source media="(min-width: 1050px)" srcset="multimidia/trepadeira-g.jpg">
+                  <source media="(min-width: 480px)" srcset="multimidia/trepadeira-m.jpg">
+                  <img class="foto-amigurumi" src="multimidia/trepadeira-p.jpg" alt="Amigurumi de flor trepadeira">
+                </picture>
+              </figure>
+              <h3 class="titulo-pintura">Trepadeira</h3>
+              <p class="descricao-pintura">Conjunto feito à mão em fio de algodão</p>
+              <a class="btn-encomendar-p" href="#">ENCOMENDAR</a>
+            </li>
+
+          </ul>
+        </section>
+
+         <div class="divisor">
+          <hr class="line">
+          <span class="estrela">✦</span>
+          <hr class="line">
         </div>
+
+        <section class="sobre-mim" aria-labelledby="titulo-sobre-mim">
+          <div class="sobre-mim-conteudo">
+            <figure class="foto-artesa">
+              <img src="multimidia/julia.jpg" alt="Julia, artesã por trás da Julia Amigurumi">
+            </figure>
+            <div class="texto-sobre-mim">
+              <p class="overline-sobre">CONHEÇA A ARTESÃ</p>
+              <h2 id="titulo-sobre-mim">SOBRE MIM</h2>
+              <p>Sou a Julia, apaixonada por crochê desde a adolescência, quando aprendi os primeiros pontos com minha avó. Ao longo de mais de 8 anos, transformei esse carinho em ofício: cada amigurumi que crio carrega um pouco da minha história e é pensado para virar companhia de quem recebe.</p>
+              <p>Trabalho com fios de algodão selecionados e atenção aos mínimos detalhes, do focinho ao acabamento, para que cada boneco seja único. Cada encomenda começa com uma conversa — entendo o que você imagina, ajusto cores e tamanhos, e coloco a mão na agulha até a peça ficar pronta para abraçar.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="divisor">
+          <hr class="line">
+          <span class="estrela">✦</span>
+          <hr class="line">
+        </div>
+
+        <section class="contato" aria-labelledby="titulo-contato">
+          <div class="contato-conteudo">
+            <p class="overline-contato">VAMOS CRIAR JUNTAS?</p>
+            <h2 id="titulo-contato">FAÇA SUA ENCOMENDA</h2>
+            <p>Conte pra mim qual amigurumi você imagina — cores, tamanho e um toque especial — e eu cuido do resto, ponto a ponto.</p>
+
+            <ol class="passos-encomenda">
+              <li><span class="passo-numero">01</span>Chame no WhatsApp e conte sua ideia</li>
+              <li><span class="passo-numero">02</span>Combinamos cores, tamanho e detalhes</li>
+              <li><span class="passo-numero">03</span>Seu amigurumi fica pronto, ponto a ponto</li>
+            </ol>
+
+            <div class="contato-links">
+              <a class="btn-encomendar-p" href="#" target="_blank" rel="noopener">CHAMAR NO WHATSAPP</a>
+              <a class="link-instagram" href="#" target="_blank" rel="noopener">@julia.amigurumi no Instagram</a>
+            </div>
+          </div>
+        </section>
+
       </main>
-      
-        </body>
-      </html>
+
+      <footer class="rodape">
+        <div class="rodape-conteudo">
+         <p class="rodape-copyright">© 2026 Kauany O. Lima. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+
     </div>
+  </body>
+</html>
